@@ -1,0 +1,9 @@
+console.log("Kiran Academy Website Loaded Successfully");
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const currentPage = window.location.pathname;
+
+    console.log("Current Page:", currentPage);
+
+});
